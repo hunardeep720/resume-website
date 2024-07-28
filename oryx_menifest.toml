@@ -1,0 +1,4 @@
+[build]
+cmd = "npm install && npm run build"
+[languageVersions]
+nodejs = "18.17.0"
