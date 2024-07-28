@@ -1,4 +1,5 @@
 import Layout from "@/component/Layout";
+import Link from "next/link";
 
 const Resume = () => (
   <Layout>
@@ -36,7 +37,20 @@ const Resume = () => (
             <p className="py-1 font-semibold">
               Technologies: Next.js, Restful APIs, Google Firebase
             </p>
-            <p className="text-blue-400 cursor-pointer">[GitHub] [Demo]</p>
+            <p className="text-blue-400 cursor-pointer">
+              <Link
+                href="https://github.com/hunardeep720/xyz-online-store.git"
+                target="_blank"
+              >
+                [GitHub]
+              </Link>
+              <Link
+                href={"https://xyz-online-store-iq2a.vercel.app"}
+                target="_blank"
+              >
+                [Demo]
+              </Link>{" "}
+            </p>
           </li>
           <li>
             <p className="font-semibold">
@@ -46,7 +60,17 @@ const Resume = () => (
               Created a dynamic and responsive photography portfolio website.
             </p>
             <p className="py-1 font-semibold">Technologies: Next.js</p>
-            <p className="text-blue-400 cursor-pointer">[GitHub] [Demo]</p>
+            <p className="text-blue-400 cursor-pointer">
+              <Link
+                href="https://github.com/hunardeep720/photograpy.git"
+                target="_blank"
+              >
+                [GitHub]
+              </Link>
+              <Link href={"https://photograpy-pied.vercel.app"} target="_blank">
+                [Demo]
+              </Link>{" "}
+            </p>
           </li>
           <li>
             <p className="font-semibold">
@@ -57,7 +81,17 @@ const Resume = () => (
             <p className="py-1 font-semibold">
               Technologies: Next.js, Restful APIs
             </p>
-            <p className="text-blue-400 cursor-pointer">[GitHub] [Demo]</p>
+            <p className="text-blue-400 cursor-pointer">
+              <Link
+                href="https://github.com/hunardeep720/next-j-resume.git"
+                target="_blank"
+              >
+                [GitHub]
+              </Link>
+              <Link href={"https://next-j-resume.vercel.app"} target="_blank">
+                [Demo]
+              </Link>{" "}
+            </p>
           </li>
           <li>
             <p className="font-semibold">
@@ -69,7 +103,20 @@ const Resume = () => (
             <p className="py-1 font-semibold">
               Technologies: HTML, CSS, JavaScript
             </p>
-            <p className="text-blue-400 cursor-pointer">[GitHub] [Demo]</p>
+            <p className="text-blue-400 cursor-pointer">
+              <Link
+                href="https://github.com/hunardeep720/Delilah-s-Doggy-Daycare.git"
+                target="_blank"
+              >
+                [GitHub]
+              </Link>
+              <Link
+                href={"https://hunardeep720.github.io/Delilah-s-Doggy-Daycare/"}
+                target="_blank"
+              >
+                [Demo]
+              </Link>{" "}
+            </p>
           </li>
           <li>
             <p className="font-semibold">
@@ -81,7 +128,14 @@ const Resume = () => (
             <p className="py-1 font-semibold">
               Technologies: React-Native, SQLite
             </p>
-            <p className="text-blue-400 cursor-pointer">[GitHub] [Demo]</p>
+            <p className="text-blue-400 cursor-pointer">
+              <Link
+                href="https://github.com/hunardeep720/MyBudget.git"
+                target="_blank"
+              >
+                [GitHub]
+              </Link>{" "}
+            </p>
           </li>
         </ul>
       </section>
